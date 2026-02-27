@@ -1,6 +1,6 @@
 # Projet_BDD_Chaigneau_Sieux
 
-	Prompt :
+	Prompt :	Prompt :
 
 Tu travailles dans le domaine des réseaux sociaux. Ton entreprise a comme activité d’établir une connexion professionnelle entre les différents utilisateurs. C’est une entreprise comme Microsoft. Tu peux collecter les données de réseaux sociaux comme Linkedin, Facebook ou les journaux. Inspire-toi du site web suivant : Linkedin.
 Ton entreprise veut appliquer MERISE pour concevoir un système d'information. Tu es chargé de la partie analyse, c’est-à-dire de collecter les besoins auprès de l’entreprise. Elle a fait appel à un étudiant en ingénierie informatique pour réaliser ce projet, tu dois lui fournir les informations nécessaires pour qu’il applique ensuite lui-même les étapes suivantes de conception et développement de la base de données. 
@@ -28,28 +28,12 @@ Réseau professionnel
 •	Une demande de connexion possède un statut (en attente, acceptée, refusée).
 •	Une connexion est bidirectionnelle.
 •	Un utilisateur peut supprimer une connexion existante.
-•	Un utilisateur peut suivre une entreprise sans être connecté à un autre utilisateur.
 Expériences et formation
 •	Un utilisateur peut enregistrer plusieurs expériences professionnelles.
 •	Chaque expérience est associée à une entreprise.
 •	Une expérience possède une date de début et éventuellement une date de fin.
 •	Un utilisateur peut enregistrer plusieurs formations.
 •	Une formation est associée à un établissement.
-Compétences et recommandations
-•	Un utilisateur peut déclarer plusieurs compétences.
-•	Une compétence peut être validée (recommandée) par d’autres utilisateurs.
-•	Un utilisateur peut rédiger une recommandation pour un autre utilisateur.
-•	Une recommandation est visible publiquement selon les paramètres du profil.
-Publications et interactions
-•	Un utilisateur peut publier du contenu (texte, image, lien).
-•	Une publication possède une date et un auteur unique.
-•	Les autres utilisateurs peuvent aimer, commenter ou partager une publication.
-•	Un commentaire est associé à une publication et à un auteur.
-•	Un utilisateur peut signaler un contenu inapproprié.
-Messagerie
-•	Un utilisateur peut envoyer un message privé à une connexion.
-•	Un message possède un expéditeur, un destinataire, une date d’envoi et un statut (lu/non lu).
-•	Les échanges sont historisés.
 Entreprises
 •	Une entreprise possède une page officielle.
 •	Une entreprise peut publier des offres d’emploi.
@@ -75,21 +59,21 @@ Pays	Alphabétique	100 caractères
 Numéro de téléphone	Alphanumérique	20 caractères
 Date de création du compte	Date	10 caractères
 Statut du compte	Alphabétique	20 caractères
-Identifiant connexion	Numérique entier	10 chiffres
+Identifiant compte	Numérique entier	10 chiffres
 Identifiant expérience	Numérique entier	10 chiffres
-Nom entreprise	Alphanumérique	150 caractères
+Nom établissement	Alphanumérique	150 caractères
 Poste occupé	Alphanumérique	150 caractères
 Date début expérience	Date	10 caractères
 Date fin expérience	Date	10 caractères
 Identifiant formation	Numérique entier	10 chiffres
 Nom établissement	Alphanumérique	150 caractères
 Diplôme obtenu	Alphanumérique	150 caractères
-Identifiant entreprise	Numérique entier	10 chiffres
+Identifiant établissement	Numérique entier	10 chiffres
 Description	Alphanumérique	2000 caractères
 Date création	Date	10 caractères
-Nom entreprise	Alphanumérique	150 caractères
 Identifiant offre emploi	Numérique entier	10 chiffres
 Titre offre emploi	Alphanumérique	150 caractères
 Description offre emploi	Alphanumérique	2000 caractères
 Statut candidature	Alphabétique	20 caractères
+
 
