@@ -78,7 +78,6 @@ Nom	Alphabétique	100 caractères
 Prénom	Alphabétique	100 caractères
 Date de naissance	Date	10 caractères
 Photo de profil (URL)	Alphanumérique	255 caractères
-Titre professionnel actuel	Alphanumérique	150 caractères
 Biographie	Alphanumérique	2000 caractères
 Ville	Alphabétique	100 caractères
 Pays	Alphabétique	100 caractères
