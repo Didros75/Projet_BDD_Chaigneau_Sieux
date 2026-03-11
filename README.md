@@ -118,10 +118,17 @@ ADD CONSTRAINT CHECK (statut_candidature IN ('en_attente', 'acceptee', 'refusee'
 ALTER TABLE Suivre
 ADD CONSTRAINT CHECK (statut_suivi IN ('en_attente', 'acceptee', 'refusee'));
 
-30 utilisateurs, 50 offres d’emplois. Parmis les utilisateurs on en veut 10 qui ont pas fini leurs formations (null) et donc pas de profession cas ils sont toujours en école, Dans les établissements on veut 15 entreprises qui proposent les offres et qui sont affiliées au professions et 5 écoles type EFREI, EPITA qui proposent les formations, une école peut proposer plusieurs formations. Au moins 1 utilisateur a 15 demandes de suivi, le reste peut en avoir entre 0 et 5. Un utilisateur peut avoir plusieurs professions mais pas en même temps (une seule aune date de fin nulle). Un utilisateur peut postuler à plusieurs offres d’emploi ou pas du tout et inversement. Chaque utilisateur a un compte.
+30 utilisateurs, 50 offres d’emplois. Parmis les utilisateurs on en veut 10 qui ont pas fini leurs formations (null) et donc pas de profession cas ils sont toujours en école.
+Dans les établissements on veut 15 entreprises qui proposent les offres et qui sont affiliées au professions et 5 écoles type EFREI, EPITA qui proposent les formations, une école peut proposer plusieurs formations.
+Au moins 1 utilisateur a 15 demandes de suivi, le reste peut en avoir entre 0 et 5. Un utilisateur peut avoir plusieurs professions mais pas en même temps (une seule aune date de fin nulle).
+Un utilisateur peut postuler à plusieurs offres d’emploi ou pas du tout et inversement. Chaque utilisateur a un compte.
 
 Les clés étrangères doivent faire référence aux clés primaires existantes : donne les lignes en commençant par remplir les tables dans lesquelles il n'y a pas de clés étrangères, puis les tables dans lesquelles les clés étrangères font références à des clés primaires des tables déjà remplies. 
 
 Fournis l'ensemble sous la forme d’un script SQL prêt à être exécuté.
-
 ```
+
+Pour tester cette base de données nous avons créé deux scénarios qui sont liés entre eux :
+
+1. Un candidat (Melvin Chaigneau) veut faire des recherches pour trouvel un nouvel emploi.
+2. Un recruteur (Julie Sieux) aimerait avoir plusieurs informations sur les offres d'emplois.
